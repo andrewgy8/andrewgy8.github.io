@@ -1,12 +1,12 @@
 # Site settings
 title: AGY
-header-img: img/home-bg.jpg
+header-img: img/home.jpg
 email: andrewgy8@gmail.com
 copyright_name: One line at a time
 description: "A site to document discoveries, techniques, and host my resume."
 baseurl: ""
 url: "https://andrewgy8.github.io/"
-twitter_username: SBootstrap
+twitter_username: andrewgy8
 github_username:  andrewgy8
 facebook_username:  andrew.grahamyooll
 email_username:  andrewgy8@gmail.com
