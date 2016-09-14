@@ -401,3 +401,13 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
+
+.devicon-angularjs-plain, 
+.devicon-python-plain-wordmark, 
+.devicon-rails-plain-wordmark, 
+.devicon-html5-plain-wordmark,
+.devicon-css3-plain-wordmark,
+.devicon-nodejs-plain-wordmark,
+.devicon-photoshop-line {
+  font-size: 5em;
+}

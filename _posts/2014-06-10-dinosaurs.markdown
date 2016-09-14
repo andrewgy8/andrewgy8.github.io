@@ -1,23 +1,19 @@
 ---
 layout:     post
-title:      "Andrews First post"
-subtitle:   "because they lacked opposable thumbs and the brainpower to build a space program."
+title:      "Extending the IonicIcons Library"
+subtitle:   "with the full Material Designs icons"
 date:       2014-06-10 12:00:00
 author:     "Start Bootstrap"
 header-img: "img/post-bg-01.jpg"
 ---
 
-<p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
+<p>Let me start off by saying that the folks over at <a href="http://ionicframework.com/docs/v2/getting-started/installation/">Ionic</a> are doing a great job. They are responsive to user issues, requests, and questions.</p>
 
-<p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
+<p>However, one thing that I beleive the Ionic 2 Framework needs more of are... Icons.</p><p>  How could you have too many, right?</p>
 
-<p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
+<p>Here, I document the way I set up an Ionic project to handle the element:</p> {% highlight html %} <i class="material-icons">face</i> {% endhighlight %}
 
-<p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
-
-<p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
-
-<h2 class="section-heading">The Final Frontier</h2>
+<h2 class="section-heading">The lines</h2>
 
 <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
 

@@ -1,8 +1,8 @@
 # Site settings
-title: AGY
+title: One-Line@A-Time
 header-img: img/home.jpg
 email: andrewgy8@gmail.com
-copyright_name: One line at a time
+copyright_name: One-Line@A-Time
 description: "A site to document discoveries, techniques, and host my resume."
 baseurl: ""
 url: "https://andrewgy8.github.io/"
