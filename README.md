@@ -1,24 +1,19 @@
-#Clean Blog by Start Bootstrap - Jekyll Version
+#Andrew Graham-Yooll's Blog
 
-The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://startbootstrap.com/).
+A blog/site for hosting his resume.
 
-###[View Live Demo &rarr;](http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/)
+Built with [Jekyll](https://jekyllrb.com/) and a [StartBootstrapTemplate](https://startbootstrap.com/template-categories/landing-pages/).
 
-## Before You Begin
+Shout out to BlackRockDigital for their fantastic [Jekyll Template](http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/)
 
-In the _config.yml file, the base URL is set to /startbootstrap-clean-blog-jekyll which is this themes gh-pages preview. It's recommended that you remove the base URL before working with this theme locally!
+## My goal(s) with this site
 
-It should look like this:
-`baseurl: ""`
+First, this site is a host for my resume. If I could find an employer to look at it, that would be swell.  
 
-## What's Included
+But mainly, this site will serve as a kind of tutorial site for myself first and foremost, and for others that happen to run upon it. As a fairly new developer, I have had a tough time learning certain concepts. I hope this blog solidifies my understanding of those aspects of the trade, and possibly helping other out as well.  
 
-A full Jekyll environment is included with this theme. If you have Jekyll installed, simply run `jekyll serve` in your command line and preview the build in your browser. You can use `jekyll serve --watch` to watch for changes in the source files as well.
+Thirdly, I like art. I will be posting my art and other contributors art. Their names and comments will be posted.  
 
-A Grunt environment is also included. There are a number of tasks it performs like minification of the JavaScript, compiling of the LESS files, adding banners to apply the MIT license, and watching for changes. Run the grunt default task by entering `grunt` into your command line which will build the files. You can use `grunt watch` if you are working on the JavaScript or the LESS.
+## Contact
 
-You can run `jekyll serve --watch` and `grunt watch` at the same time to watch for changes and then build them all at once.
-
-## Support
-
-Visit Clean Blog's template overview page on Start Bootstrap at http://startbootstrap.com/template-overviews/clean-blog/ and leave a comment, email feedback@startbootstrap.com, or open an issue here on GitHub for support.
+If you have any suggestions, comments or questions, my email is andrewgy8@gmail.com
