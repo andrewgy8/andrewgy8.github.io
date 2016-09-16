@@ -5,6 +5,8 @@ subtitle:   "Extending the IonicIcons Library with the full Material Designs ico
 date:       2016-09-14 12:00:00
 author:     "Andrew Graham-Yooll"
 header-img: "img/odd-out.jpg"
+comments: true
+
 ---
 
 <p>Let me start off by saying that the folks over at <a href="http://ionicframework.com/docs/v2/getting-started/installation/">Ionic</a> are doing a great job. They are responsive to user issues, requests, and questions.</p>
@@ -210,3 +212,5 @@ gulp.task('customFonts', function () {
 <i class="material-icons">stars</i><i class="material-icons">flare</i><i class="material-icons">stars</i>
 
 <span class="caption text-muted">Have any cool icon images? Send them, and I'll post them!</span>
+
+{% include disqus.html %}

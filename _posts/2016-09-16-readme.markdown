@@ -5,6 +5,8 @@ subtitle:   "Always read the README"
 date:       2016-09-16 12:00:00
 author:     "Andrew Graham-Yooll"
 header-img: "img/delivery.jpg"
+comments: true
+
 ---
 
 <h2 class="section-heading">readme</h2>
@@ -14,7 +16,7 @@ header-img: "img/delivery.jpg"
 
 <p>Any half-way decent software will have a solid README that should take care of most of the functionality and set-up.</p>
 
-<p>With this being said, here is ithe README for this site.</p>
+<p>With this being said, here is ithe README for this <a href="https://github.com/andrewgy8/andrewgy8.github.io">site</a>.</p>
 
 
 {% highlight markdown %}
@@ -43,3 +45,5 @@ comments will be posted.
 
 If you have any suggestions, comments or questions, my email is andrewgy8@gmail.com
 {% endhighlight %}
+
+{% include disqus.html %}
