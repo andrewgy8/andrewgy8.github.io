@@ -4,7 +4,7 @@ title:      "Icons For Days"
 subtitle:   "Extending the IonicIcons Librarywith the full Material Designs icons"
 date:       2016-09-14 12:00:00
 author:     "Andrew Graham-Yooll"
-header-img: "img/post-bg-01.jpg"
+header-img: "img/odd-out.jpg"
 ---
 
 <p>Let me start off by saying that the folks over at <a href="http://ionicframework.com/docs/v2/getting-started/installation/">Ionic</a> are doing a great job. They are responsive to user issues, requests, and questions.</p>
