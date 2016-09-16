@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Icons For Days"
-subtitle:   "Extending the IonicIcons Librarywith the full Material Designs icons"
+subtitle:   "Extending the IonicIcons Library with the full Material Designs icons"
 date:       2016-09-14 12:00:00
 author:     "Andrew Graham-Yooll"
 header-img: "img/odd-out.jpg"
@@ -13,7 +13,7 @@ header-img: "img/odd-out.jpg"
 
 <p>Here, I document the way I set up an Ionic project to handle the element:</p> {% highlight html %} <i class="material-icons">face</i> {% endhighlight %}
 <p>to render something like </p>
-<i class="material-icons">face</i><i class="material-icons">flare</i>
+<i class="material-icons">thumbs_up_down</i><i class="material-icons">face</i><i class="material-icons">thumbs_up_down</i>
 
 <h2 class="section-heading">Summary</h2>
 <ol>
@@ -26,7 +26,7 @@ header-img: "img/odd-out.jpg"
 
 <h2 class="section-heading">The lines</h2>
 
-<p>I assume you have node.js, npm and Ionic configured for simple Ionic Project generation. If not, I will be including a short description on how to get started (or you can visit the <a href="http://ionicframework.com/docs/v2/getting-started/installation/">Ionic Quickstart Page</a>.</p>
+<p>I assume you have node.js, npm and Ionic configured for simple Ionic Project generation. If not, I will be including a short description on how to get started (or you can visit the <a href="http://ionicframework.com/docs/v2/getting-started/installation/">Ionic Quickstart Page</a>).</p>
 
 {% highlight bash %}$ ionic start material-icons --v2
 $ cd material-icons
@@ -41,7 +41,7 @@ $ ionic serve
 {% highlight bash %}$ sudo ionic serve
 {% endhighlight %}
 
-<p>Congrats! Your project should be up, running and viewable in your browser.</p>
+<p>Your project should be up, running and viewable in your browser.</p>
 
 <h2 class="section-heading">Getting the icons</h2>
 
@@ -50,15 +50,15 @@ $ ionic serve
 
 <p>Once downloaded, we need to include them in our app. To do that, we need to understand how the app works.</p>
 
-<p>In Ionic2, the file sturcture setup for you when the command {% highlight bash %}$ ionic start material-icons --v2{% endhighlight %} is used, is fundamentally straight forward. For our purposes in this tutorial, the basic sturucture goes like this: </p>
+<p>In Ionic2, the file sturcture setup when you run the command {% highlight bash %}$ ionic start material-icons --v2{% endhighlight %}, is relatively straight forward. For our purposes in this tutorial, the basic sturucture goes like this: </p>
 
 {% highlight bash %}material-icons <--root
 --/app <-- where your code goes       
---/www <-- where your app is built to        
+--/www <-- where your app is built to(don't touch anything in hear unless told to)       
 --gulpfile.js <-- what builds your app  
 {% endhighlight %}
 
-<p>Yes, I know that there are other things in your file. Let's KISS (keep it stupid simple), and pretend we cant see those other files at the moment. </p>
+<p>Yes, I know that there are other things in your file. But let's KISS (keep it stupid simple), and pretend we can not see those other files at the moment. </p>
 
 {% highlight bash %}within /app, you write all your code
 		   ||
@@ -76,22 +76,23 @@ placed into /www for your browser/device to read
 
 <h2 class="section-heading">Experiment Time!</h2>
 
-<p>I  strongly encourage you to try to put the Material Icons files we downloaded earlier directly into the /www file. If you do, make sure to copy the files and don't just drag and drop.</p>
+<p>I  strongly encourage you to try to put the Material Icons files we downloaded earlier, directly into the /www file.</p> 
 
-<p>Once you start your server and see your app in your browser, look back in your editor and checkout your search your /www file for the Material Icons file you placed in there. You will notice something that really frustrated me the first time I tried, but it taught me a lot about the process of building an app.</p>
+<p> If you do, make sure to copy the files and don't just drag and drop. You'll thank me later.</p>
 
-<p>Go ahead and see what happens!</p>
+<p>Once you re-start the server and see the app in your browser, look back in your editor. Checkout your /www file and search for the Material Icons file you placed in there. You will notice something that really frustrated me the first time I tried this, but it taught me a lot about the process of building an app.</p>
 
 <p>If you do end up going on with this experiment, let us know what happend!</p>
 
 <p>Note: I doubt anything destructive will occur, but if you do something and you can't get your app to function anymore, don't sweat! Just revert back to your last commit, or restart the app.</p>
 
 <h2 class="section-heading">Put them in the right place</h2>
-<p>While placing the font files into /www is interesting, it is NOT the right place.</p>
+
+<p>While placing the font files into /www is interesting, it is clearly not the right place.</p>
 
 <p>If you did the experiment, you should have noticed that the Material Icons folders disappeared when the changes were saved. The reason lies in gulpfile.js and we will get to that in a bit.</p>
 
-<p>The "right" place to put them is is not well documented at this point in Ionic2. I went ahead and created a folder in /app called /md-icons. That is where I dropped them off at.  If you follow this method, the rest will work. But if you find a different place, please change the paths respectively in your code.</p>
+<p>The "right" place to put the font-files is is not well documented at this point in Ionic2. Therefore, I went ahead and created a folder in /app called /md-icons. That is where I dropped them off at.  If you follow this method, the rest will work. But if you find a different place, please change the paths respectively in your code.</p>
 
 <p>And just a recap of what our project looks like now:</p>
 {% highlight bash %}material-icons <--root
@@ -206,6 +207,6 @@ gulp.task('customFonts', function () {
 
 <p>Finally, you should be able to call the element {% highlight html %} <i class="material-icons">face</i> {% endhighlight %} anad have it render: </p>
 
-<img src="{{ site.baseurl }}/img/Icons-example.png" alt="Icon Example Image">
+<i class="material-icons">stars</i><i class="material-icons">flare</i><i class="material-icons">stars</i>
 
 <span class="caption text-muted">Have any cool icon images? Send them, and I'll post them!</span>
