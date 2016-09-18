@@ -10,7 +10,7 @@ comments: true
 ---
 
 <h2 class="section-heading">readme</h2>
-<p>One of the greated lessons I have learned in development is to always read the README.</p>
+<p>One of the greatest lessons I have learned in development is to always read the README.</p>
 
 <p>Instead of asking a question on StackOverflow or some forum, I highly suggest reading the README first of the gem, module, and/or package.  Not only will you learn more by doing it, but you will also grasp the important skill any employer looks for...self-motivation.</p>
 
