@@ -39,7 +39,7 @@ $(function() {
                     email: email,
                     message: message
                 },
-                dataType: "jsonp",
+                dataType: "json",
                 cache: false,
                 success: function(data) {
                     // Success message
