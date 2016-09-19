@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Icons For Days"
-subtitle:   "Extending the IonicIcons Library with the full Material Designs icons"
+subtitle:   "Extending the IonIcon Library with the full Material icons repository"
 date:       2016-09-14 12:00:00
 author:     "Andrew Graham-Yooll"
 header-img: "img/odd-out.jpg"
@@ -11,11 +11,12 @@ comments: true
 
 <p>Let me start off by saying that the folks over at <a href="http://ionicframework.com/docs/v2/getting-started/installation/">Ionic</a> are doing a great job. They are responsive to user issues, requests, and questions.</p>
 
-<p>However, one thing that I beleive the Ionic 2 Framework needs more of are... Icons.</p><p>  How could you have too many, right?</p>
+<p>However, one thing that I beleive the Ionic 2 Framework needs more of are... icons.</p><p>  How could you have too many, right?</p>
 
 <p>Here, I document the way I set up an Ionic project to handle the element:</p> {% highlight html %} <i class="material-icons">face</i> {% endhighlight %}
 <p>to render something like </p>
 <i class="material-icons">thumbs_up_down</i><i class="material-icons">face</i><i class="material-icons">thumbs_up_down</i>
+<p>for offline use.</p>
 
 <h2 class="section-heading">Summary</h2>
 <ol>
