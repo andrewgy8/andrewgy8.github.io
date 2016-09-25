@@ -15,7 +15,7 @@ comments: true
 	<li>Pick a goal, a large goal, and stick to solving that problem to learn the most about development</li>
 </ol>
 
-<h2 class="section-heading">Learn programming the better way</h2>
+<h2 class="section-heading">Learn programming a better way</h2>
 
 <p>If I was to go back one year and tell myself one piece of advice, this is what it would be.
 </p>
@@ -73,3 +73,4 @@ comments: true
 <p>That is what refactoring is for.  
 </p>
 
+{% include disqus.html %}
