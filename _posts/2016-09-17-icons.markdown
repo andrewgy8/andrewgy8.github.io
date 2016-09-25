@@ -110,13 +110,13 @@ placed into /www for your browser/device to read
 --gulpfile.js <-- what builds your app  
 {% endhighlight %}
 
-<h2 class="section-heading">Adjust you gulpfile.js</h2>
+<h2 class="section-heading">Adjusting your gulpfile.js</h2>
 
 <p>As we said earlier, the gulpfile is responsible for taking our code or scripts, minifying, and then placing them into the /www. From there, the browser is served the files in the /www folder that it needs to produce a view or function.</p>
 
 <p>The issue with our gulpfile.js file, and the reason our files disappeared from the /www folder is that we never told the gulpfile that we wanted those files processed and placed into the /www folder. That is what we are now going to do.</p>
 
-<p>Add this to you gulpfile.js:</p>
+<p>Add this to your gulpfile.js:</p>
 
 {% highlight javascript %}var isRelease = argv.indexOf('--release') > -1;
 
