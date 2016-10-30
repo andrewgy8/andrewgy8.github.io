@@ -1,0 +1,49 @@
+---
+layout:     post
+title:      "Chic-a-Chic-a-CheckBox"
+subtitle:   "Checkboxes in Ionic2"
+date:       2016-10-30 1:00:00
+author:     "Andrew Graham-Yooll"
+header-img: "img/building.jpg"
+comments: true
+
+---
+
+<p>Im going to try to keep my future posts short and simple.<p>
+<p>KISS</p>
+
+<h2 class="section-heading">Ahhh…. the beautiful checkbox in your form.  You just love clicking it don’t you?</h2>
+
+<p>Well, lets put one in!</p>
+
+<h2 class="section-heading">Template</h2>
+
+<p>I assume you have node.js, npm and Ionic configured for simple Ionic Project generation. If not, I will be including a short description on how to get started (or you can visit the <a href="http://ionicframework.com/docs/v2/getting-started/installation/">Ionic Quickstart Page</a>).</p>
+
+{% highlight html %}<ion-item>
+	<ion-label>Check this out!</ion-label>
+  	<ion-checkbox (click)="onCheckBox(1)"></ion-checkbox>
+</ion-item>
+{% endhighlight %}
+
+<h2 class="section-heading">Component</h2>
+
+{% highlight javascript %}data = {1:'undefined'}
+
+onCheckBox(loc){
+    //store the checkBox answers however you would like.
+    // I use FormBuilder and then insert the checkBox Answers into my form on submittal
+    let ans = this.data[loc]
+    if(ans == 'undefined' || ans == 'false'){
+      	this.data[loc] = 'true' 
+      	console.log('this.data true***', this.data)
+    }  
+    else{
+	    this.data[loc] = 'false'
+	    console.log('this.data false***', this.data) 
+		}
+ 	}
+}
+{% endhighlight %}
+
+{% include disqus.html %}
