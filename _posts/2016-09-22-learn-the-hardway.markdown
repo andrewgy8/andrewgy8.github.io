@@ -25,7 +25,7 @@ comments: true
 </p>
 <p>But, I would advise you to put it down for a day or two. 
 </p>
-<p>Next, come up with a large goal. One that you feel passionate about. One that if you had to stare at the goal for an entire year, you wouldn't consider throwing your computer against the wall if you stumble on your goal.  
+<p>Next, come up with a large goal. One that you feel passionate about. One that if you had to stare at the goal for an entire year, you wouldn't consider throwing your computer against the wall if you stumble on reaching your final product.  
 </p>
 <p>The final goals of the project might have technologies that you have no idea how to use. The purpose for now is to turn nothing, into something. Get a minimally viable project/product (MVP) up and running.
 </p>
