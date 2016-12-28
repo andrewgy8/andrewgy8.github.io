@@ -16,7 +16,7 @@ comments: true
 
 <p>Any half-way decent software will have a solid README that should take care of most of the functionality and set-up.</p>
 
-<p>With this being said, here is ithe README for this <a href="https://github.com/andrewgy8/andrewgy8.github.io">site</a>.</p>
+<p>With this being said, here is the README for this <a href="https://github.com/andrewgy8/andrewgy8.github.io">site</a>.</p>
 
 
 {% highlight markdown %}

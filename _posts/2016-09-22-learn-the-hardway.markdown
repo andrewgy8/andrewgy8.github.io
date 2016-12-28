@@ -34,11 +34,11 @@ comments: true
 <p>Facebook does not get built overnight. Everyone has a "Hello, world" moment.
 </p>
 
-<h2 class="section-heading">The hardway</h2>
+<h2 class="section-heading">The hard way</h2>
 
-<p>The reason I wanted to write this article was to remind myself, and maybe others who happen across it, that the answers to your bugs or issues are most likely not written in a textbook or posted on someone elses blog. </p>
+<p>The reason I wanted to write this article was to remind myself, and maybe others who happen across it, that the answers to your bugs or issues are most likely not written in a textbook or posted on someone else's blog. </p>
 
-<p>Granted there are numerous tutorials out there that will guide you through a general case. But your case will be different. Thats when you have to venture out into the abyss and experiment. Get your head punding, hands dirty, and Break stuff.</p>
+<p>Granted there are numerous tutorials out there that will guide you through a general case. But your case will be different. Thats when you have to venture out into the abyss and experiment. Get your head pounding, hands dirty, and Break stuff.</p>
 
 <p>It has been more or less one year since I took on the challenge to teach myself <u>A</u> programming language.  I will self-admittedly say that I am nowhere near having “learnt programming,” nevertheless having stuck to “A” language. </p>
 

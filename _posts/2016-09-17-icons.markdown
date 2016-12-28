@@ -10,7 +10,7 @@ comments: true
 
 <p>Let me start off by saying that the folks over at <a href="http://ionicframework.com/docs/v2/getting-started/installation/">Ionic</a> are doing a great job. They are responsive to user issues, requests, and questions.</p>
 
-<p>However, one thing that I beleive the Ionic 2 Framework needs more of are... icons.</p><p>  How could you have too many, right?</p>
+<p>However, one thing that I believe the Ionic 2 Framework needs more of are... icons.</p><p>  How could you have too many, right?</p>
 
 <p>Here, I document the way I set up an Ionic project to handle the element:</p> {% highlight html %} <i class="material-icons">face</i> {% endhighlight %}
 <p>to render something like </p>
@@ -22,7 +22,7 @@ comments: true
 	<li>Start an Ionic project</li>
 	<li>Get the Material Icons font files, and place them in /app</li>
 	<li>Modify gulpfile.js to accept your new Icon files</li>
-	<li>Add CSS inorder to declare the HTML elements</li>
+	<li>Add CSS in order to declare the HTML elements</li>
 	<li>Declare the Material Icons in your project HTML</li>
 </ol>
 
@@ -52,7 +52,7 @@ $ ionic serve
 
 <p>Once downloaded, we need to include them in our app. To do that, we need to understand how the app works.</p>
 
-<p>In Ionic2, the file sturcture setup when you run the command {% highlight bash %}$ ionic start material-icons --v2{% endhighlight %}, is relatively straight forward. For our purposes in this tutorial, the basic sturucture goes like this: </p>
+<p>In Ionic2, the file structure setup when you run the command {% highlight bash %}$ ionic start material-icons --v2{% endhighlight %}, is relatively straight forward. For our purposes in this tutorial, the basic structure goes like this: </p>
 
 {% highlight bash %}material-icons <--root
 --/app <-- where your code goes       
@@ -84,7 +84,7 @@ placed into /www for your browser/device to read
 
 <p>Once you re-start the server and see the app in your browser, look back in your editor. Checkout your /www file and search for the Material Icons file you placed in there. You will notice something that really frustrated me the first time I tried this, but it taught me a lot about the process of building an app.</p>
 
-<p>If you do end up going on with this experiment, let us know what happend!</p>
+<p>If you do end up going on with this experiment, let us know what happened!</p>
 
 <p>Note: I doubt anything destructive will occur, but if you do something and you can't get your app to function anymore, don't sweat! Just revert back to your last commit, or restart the app.</p>
 
@@ -156,7 +156,7 @@ gulp.task('customFonts', function () {
 });
 {% endhighlight %}
 
-<p>This basically says, that all those Material-Icon files should be coied and placed in your /build directory.</p>
+<p>This basically says, that all those Material-Icon files should be copied and placed in your /build directory.</p>
 <p>We add the 'customFonts' argument into the 'watch' and 'build' phases of the gulptask.js</p>
 
 <!-- <a href="#">
@@ -167,7 +167,7 @@ gulp.task('customFonts', function () {
  <h2 class="section-heading">The home stretch</h2>
 <p>We are almost there!</p>
 
-<p>Now, we just have to specifiy in our CSS what it means when we declare an element to have class="material-icons".</p>
+<p>Now, we just have to specify in our CSS what it means when we declare an element to have class="material-icons".</p>
 
 <p>Open your /app/theme/app.core.scss and place the following toward the bottom:</p>
 {% highlight css %}@font-face {
@@ -207,7 +207,7 @@ gulp.task('customFonts', function () {
 }
 {% endhighlight %}
 
-<p>Finally, you should be able to call the element {% highlight html %} <i class="material-icons">face</i> {% endhighlight %} anad have it render: </p>
+<p>Finally, you should be able to call the element {% highlight html %} <i class="material-icons">face</i> {% endhighlight %} and have it render: </p>
 
 <i class="material-icons">stars</i><i class="material-icons">flare</i><i class="material-icons">stars</i>
 
