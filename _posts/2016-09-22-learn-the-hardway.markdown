@@ -62,7 +62,7 @@ comments: true
 
 <p>One of the hardest things to get over when developing something substantial, is that your work-flow is not going to be pretty at first.  And this is my beef with the books and tutorials. 
 </p>
-<p>The books would have you believe that the entire structure of your project is thought out a head of time. That you will be able to develop these DRY methods and layouts from the get go.  
+<p>The books would have you believe that the entire structure of your project is thought out ahead of time. That you will be able to develop these DRY methods and layouts from the get go.  
 </p>
 <p>False.
 </p>
